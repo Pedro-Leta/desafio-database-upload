@@ -5,7 +5,7 @@ import {
   TableForeignKey,
 } from 'typeorm';
 
-export class AddCategoryIdToTransactions1588273658321
+export default class AddCategoryIdToTransactions1588273658321
   implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     await queryRunner.addColumn(
